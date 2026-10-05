@@ -1,0 +1,12 @@
+{
+  "name": "daytrack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DayTrack - Accountability & Habit Consistency Engine",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend:dev": "node --watch backend/src/server.js",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "test": "cd backend && npm test"
+  }
+}
